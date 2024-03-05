@@ -25,7 +25,7 @@ def post_list(request, tag_slug=None):
     page = request.GET.get('page')
 
     # --------------
-    messages.success(request, 'Profile has been updated successfully')
+    messages.success(request, 'Profile has been updated successfully.')
     # messages.error(request, 'Error updating your tenant_profile')
     # --------------
 
